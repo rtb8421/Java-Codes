@@ -27,10 +27,8 @@ package Lab4pt2;
             Person person1 = new Person("John", 30);
             Person person2 = new Person("Jane", 25);
 
-            System.out.println("Person 1 Details:");
+            System.out.println("Person 1 and 2 Details:");
             person1.display();
-
-            System.out.println("\nPerson 2 Details:");
             person2.display();
 
             // Using 'this' as a return statement
@@ -39,7 +37,7 @@ package Lab4pt2;
             returnedPerson.display();
 
             // Checking if the returned person is the same object as person1
-            System.out.println("\nAre person1 and returnedPerson the same object? " + (person1 == returnedPerson));
+           // System.out.println("\nAre person1 and returnedPerson the same object? " + (person1 == returnedPerson));
         }
     }
 

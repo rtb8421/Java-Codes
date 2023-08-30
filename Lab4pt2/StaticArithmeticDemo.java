@@ -9,7 +9,7 @@ package Lab4pt2;
             if (b != 0) {
                 return a / b;
             } else {
-                throw new ArithmeticException("Division by zero");
+                return 0;
             }
         }
     }

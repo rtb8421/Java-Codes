@@ -12,7 +12,8 @@ package Lab4pt2;
         public abstract void printArea();
     }
 
-    class Rectangle extends Shape {
+    class
+    Rectangle extends Shape {
         public Rectangle(int base, int height) {
             super(base, height);
         }

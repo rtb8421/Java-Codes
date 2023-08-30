@@ -5,7 +5,7 @@ public class Qs14 {
     {
 
         String input = "Rooohhhaaaannnnnnn";
-        char search = 'a';             // Character to search is 'a'.
+        char search = 'a';
 
         int count=0;
         for(int i=0; i<input.length(); i++)

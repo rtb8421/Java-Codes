@@ -27,25 +27,18 @@ public class SwapNumbers {
         int num1 = 5;
         int num2 = 10;
 
-        System.out.println("Before swapping:");
-        System.out.println("num1: " + num1);
-        System.out.println("num2: " + num2);
-
-        // Call by value
         swapByValue(num1, num2);
 
         System.out.println("\nAfter swapping by value:");
         System.out.println("num1: " + num1);
         System.out.println("num2: " + num2);
 
-        // Reset values
         num1 = 5;
         num2 = 10;
 
         NumberWrapper wrapper1 = new NumberWrapper(num1);
         NumberWrapper wrapper2 = new NumberWrapper(num2);
 
-        // Call by reference
         swapByReference(wrapper1, wrapper2);
 
         System.out.println("\nAfter swapping by reference:");

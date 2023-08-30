@@ -4,24 +4,19 @@ package Lab4pt2;
         private int minutes;
         private int seconds;
 
-        // Constructor with all parameters
         public Time(int hours, int minutes, int seconds) {
             this.hours = hours;
             this.minutes = minutes;
             this.seconds = seconds;
         }
-
-        // Constructor with hours and minutes
         public Time(int hours, int minutes) {
             this(hours, minutes, 0);
         }
 
-        // Constructor with hours
         public Time(int hours) {
             this(hours, 0, 0);
         }
 
-        // Display time in HH:MM:SS format
         public void display() {
             System.out.printf("%02d:%02d:%02d%n", hours, minutes, seconds);
         }
